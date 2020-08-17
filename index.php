@@ -30,70 +30,42 @@ define("MY_HP", 500);
 // モンスター達格納用
 $monsters = array();
 
-$monsters[] = array(
-    'name' => 'フランケン',
-    'hp' => 100,
-    'img' => 'img/monster01.png',
-    'attack' => mt_rand(20, 40)
-);
-$monsters[] = array(
-    'name' => 'フランケンNEO',
-    'hp' => 300,
-    'img' => 'img/monster02.png',
-    'attack' => mt_rand(20, 60)
-);
-$monsters[] = array(
-    'name' => 'ドラキュリー',
-    'hp' => 200,
-    'img' => 'img/monster03.png',
-    'attack' => mt_rand(30, 50)
-);
-$monsters[] = array(
-    'name' => 'ドラキュリー男爵',
-    'hp' => 400,
-    'img' => 'img/monster04.png',
-    'attack' => mt_rand(50, 100)
-);
-$monsters[] = array(
-    'name' => 'スカルフェイス',
-    'hp' => 150,
-    'img' => 'img/monster05.png',
-    'attack' => mt_rand(30, 60)
-);
-$monsters[] = array(
-    'name' => '毒ハンド',
-    'hp' => 100,
-    'img' => 'img/monster06.png',
-    'attack' => mt_rand(10, 30)
-);
-$monsters[] = array(
-    'name' => '泥ハンド',
-    'hp' => 120,
-    'img' => 'img/monster07.png',
-    'attack' => mt_rand(20, 30)
-);
-$monsters[] = array(
-    'name' => '血のハンド',
-    'hp' => 180,
-    'img' => 'img/monster08.png',
-    'attack' => mt_rand(30, 50)
-);
-
-function createMonster(){//モンスター情報を作成
-    global $monsters;//
-    $viewMonster = $monsters[mt_rand(0, 7)];//上で定義したモンスターをランダムで代入
-    unset($_SESSION['name']);//セッションの中身の'name'を破棄
-    unset($_SESSION['hp']);//セッションの中身の'hp'を破棄
-    unset($_SESSION['img']);//セッションの中身の'img'を破棄
-    $_SESSION['name'] = $viewMonster['name'];//
-    $_SESSION['hp'] = $viewMonster['hp'];//
-    $_SESSION['img'] = $viewMonster['img'];//
-    $_SESSION['attack'] = $viewMonster['attack'];//
-    //セッションにランダムに代入したモンスター情報を代入
-    $_SESSION['history'] .= $_SESSION['name'].'が現れた！<br>';
-    //ヒストリー内に文を代入
+class Monster{// クラス（設計図）の作成
+    // プロパティ（属性）の作成（固定データ）
+    public $name; // 定義しただけだとnullが入る
+    public $hp;
+    public $img;
+    public $attack = ''; // nullを入れたくない場合、空文字などで初期化する
+    // コンストラクタ（動き、メソッド）の作成
+    public function __construct($name, $hp, $img, $attack) {//インスタンスのデータを代入するメソッドを作成
+        $this->name = $name;
+        $this->hp = $hp;
+        $this->img = $img;
+        $this->attack = $attack;
+    }
+    // メソッド
+    public function attack(){
+        $_SESSION['myhp'] -= $this->attack;
+        $_SESSION['history'] .= $this->attack.'ポイントのダメージを受けた！<br>';
+    }
 }
-function init(){//初期化する
+// インスタンス生成
+$monsters[] = new Monster( 'フランケン', 100, 'img/monster01.png', mt_rand(20, 40) );
+$monsters[] = new Monster( 'フランケンNEO', 300, 'img/monster02.png', mt_rand(20, 60) );
+$monsters[] = new Monster( 'ドラキュリー', 200, 'img/monster03.png', mt_rand(30, 50) );
+$monsters[] = new Monster( 'ドラキュラ男爵', 400, 'img/monster04.png', mt_rand(50, 80) );
+$monsters[] = new Monster( 'スカルフェイス', 150, 'img/monster05.png', mt_rand(30, 60) );
+$monsters[] = new Monster( '毒ハンド', 100, 'img/monster06.png', mt_rand(10, 30) );
+$monsters[] = new Monster( '泥ハンド', 120, 'img/monster07.png', mt_rand(20, 30) );
+$monsters[] = new Monster( '血のハンド', 180, 'img/monster08.png', mt_rand(30, 50) );
+
+function createMonster(){
+    global $monsters;
+    $monster =  $monsters[mt_rand(0, 6)];
+    $_SESSION['history'] .= $monster->name.'が現れた！<br>';
+    $_SESSION['monster'] =  $monster;
+}
+function init(){
     $_SESSION['history'] .= '初期化します！<br>';
     $_SESSION['knockDownCount'] = 0;
     $_SESSION['myhp'] = MY_HP;
@@ -101,42 +73,37 @@ function init(){//初期化する
 }
 function gameOver(){
     $_SESSION = array();
-    //セッションの中身をからにする。
 }
 
 
 //1.post送信されていた場合
 if(!empty($_POST)){
     $attackFlg = (!empty($_POST['attack'])) ? true : false;
-    //'attack'が送信されていたら、$attackFlgにtrueを代入する。
     $startFlg = (!empty($_POST['start'])) ? true : false;
-    //'start'が送信されていたら、$startFlgにtrueを代入する。
     error_log('POSTされた！');
 
-    if($startFlg){//$startFlgにtrueが代入されていた場合
+    if($startFlg){
         $_SESSION['history'] = 'ゲームスタート！<br>';
-        init();
-        //$_SESSION['history']に文を代入し各データ初期化する
+        init();//初期化＆createMonster();を発動
     }else{
         // 攻撃するを押した場合
-        if($attackFlg){//$attackFlgにtrueが代入されていた場合。
-            $_SESSION['history'] .= '攻撃した！<br>';//$_SESSION['history']に文を代入
+        if($attackFlg){
+            $_SESSION['history'] .= '攻撃した！<br>';
 
             // ランダムでモンスターに攻撃を与える
-            $attackPoint = mt_rand(50,100);// $attackPointにランダムな数字を代入
-            $_SESSION['hp'] -= $attackPoint;//$attackPointぶんhpを減算する。
+            $attackPoint = mt_rand(50,100);
+            $_SESSION['monster']->hp -= mt_rand(50,100);
             $_SESSION['history'] .= $attackPoint.'ポイントのダメージを与えた！<br>';
             // モンスターから攻撃を受ける
-            $_SESSION['myhp'] -= $_SESSION['attack'];//$attackぶんmyhpを減算する。
-            $_SESSION['history'] .= $_SESSION['attack'].'ポイントのダメージを受けた！<br>';
+            $_SESSION['monster']->attack();
 
-            // 自分のhpが0以下になったらゲームオーバー関数を起動
+            // 自分のhpが0以下になったらゲームオーバー
             if($_SESSION['myhp'] <= 0){
                 gameOver();
             }else{
-                // 相手モンスターが0以下になったら、別のモンスターを出現させる
-                if($_SESSION['hp'] <= 0){
-                    $_SESSION['history'] .= $_SESSION['name'].'を倒した！<br>';
+                // hpが0以下になったら、別のモンスターを出現させる
+                if($_SESSION['monster']->hp <= 0){
+                    $_SESSION['history'] .= $_SESSION['monster']->name.'を倒した！<br>';
                     createMonster();
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 }
@@ -146,10 +113,11 @@ if(!empty($_POST)){
             createMonster();
         }
     }
-    $_POST = array();//POSTの中身を削除する
+    $_POST = array();
 }
 
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -218,11 +186,11 @@ if(!empty($_POST)){
                 <input type="submit" name="start" value="▶ゲームスタート">
             </form>
             <?php }else{ ?>
-            <h2><?php echo $_SESSION['name'].'が現れた!!'; ?></h2>
+            <h2><?php echo $_SESSION['monster']->name.'が現れた!!'; ?></h2>
             <div style="height: 150px;">
-                <img src="<?php echo $_SESSION['img']; ?>" style="width:120px; height:auto; margin:40px auto 0 auto; display:block;">
+                <img src="<?php echo $_SESSION['monster']->img; ?>" style="width:120px; height:auto; margin:40px auto 0 auto; display:block;">
             </div>
-            <p style="font-size:14px; text-align:center;">モンスターのHP：<?php echo $_SESSION['hp']; ?></p>
+            <p style="font-size:14px; text-align:center;">モンスターのHP：<?php echo $_SESSION['monster']->hp; ?></p>
             <p>倒したモンスター数：<?php echo $_SESSION['knockDownCount']; ?></p>
             <p>勇者の残りHP：<?php echo $_SESSION['myhp']; ?></p>
             <form method="post">
