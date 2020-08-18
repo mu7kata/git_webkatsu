@@ -14,3 +14,50 @@
 [17-Aug-2020 13:59:43 Asia/Tokyo] POSTされた！
 [17-Aug-2020 13:59:43 Asia/Tokyo] POSTされた！
 [17-Aug-2020 13:59:44 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:19:09 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 122
+[18-Aug-2020 10:20:06 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 122
+[18-Aug-2020 10:20:06 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 122
+[18-Aug-2020 10:20:51 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:21:29 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:21:54 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:22:38 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Class 'Creature' not found in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php:19
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 19
+[18-Aug-2020 10:24:06 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:24:06 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:24:07 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:24:07 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:24:08 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:27:38 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:27:39 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:30:58 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:31:49 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:35:05 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:35:05 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:35:06 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:35:07 Asia/Tokyo] PHP Fatal error:  Cannot make non static method HistoryInterface::set() static in class History in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 132
+[18-Aug-2020 10:35:33 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:35:36 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:03 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:04 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:05 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:06 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:40 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:44:42 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:29 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:30 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:46 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:47 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:48 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:46:49 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:47:24 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:47:24 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:47:25 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:47:25 Asia/Tokyo] POSTされた！
+[18-Aug-2020 10:54:10 Asia/Tokyo] POSTされた！
+[18-Aug-2020 11:03:27 Asia/Tokyo] POSTされた！
+[18-Aug-2020 11:03:55 Asia/Tokyo] POSTされた！
+[18-Aug-2020 11:04:04 Asia/Tokyo] POSTされた！
+[18-Aug-2020 11:04:15 Asia/Tokyo] POSTされた！
+[18-Aug-2020 11:04:53 Asia/Tokyo] POSTされた！
