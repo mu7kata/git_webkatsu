@@ -47,9 +47,11 @@ abstract class Creature{
             $attackPoint = $attackPoint * 1.5;
             $attackPoint = (int)$attackPoint;
             History::set($this->getName().'のクリティカルヒット!!');
+            condition::set($this->getName().'のクリティカルヒット!!');
         }
         $targetObj->setHp($targetObj->getHp()-$attackPoint);
         History::set($attackPoint.'ポイントのダメージ！');
+        condition::set($attackPoint.'ポイントのダメージ！');
     }
 }
 // 人クラス
@@ -70,6 +72,7 @@ class Human extends Creature{
     }
     public function sayCry(){
         History::set($this->name.'が叫ぶ！');
+        condition::set($this->name.'が叫ぶ！');
         switch($this->sex){
             case Sex::MAN :
                 History::set('ぐはぁっ！');
@@ -102,6 +105,8 @@ class Monster extends Creature{
     public function sayCry(){
         History::set($this->name.'が叫ぶ！');
         History::set('はうっ！');
+        condition::set($this->name.'が叫ぶ！');
+        condition::set('はうっ！');
     }
 }
 // 魔法を使えるモンスタークラス
@@ -117,8 +122,10 @@ class MagicMonster extends Monster{
     public function attack($targetObj){
         if(!mt_rand(0,4)){ //5分の1の確率で魔法攻撃
             History::set($this->name.'の魔法攻撃!!');
+            condition::set($this->name.'の魔法攻撃!!');
             $targetObj->setHp( $targetObj->getHp() - $this->magicAttack );
             History::set($this->magicAttack.'ポイントのダメージを受けた！');
+            condition::set($this->magicAttack.'ポイントのダメージを受けた！');
         }else{
             parent::attack($targetObj);
         }
@@ -140,6 +147,21 @@ class History implements HistoryInterface{
         unset($_SESSION['history']);
     }
 }
+interface conditionInterface{
+    public static function set($str);
+    public static function clear();
+}
+
+class condition implements conditionInterface {
+public static function set($str){
+    if(empty($_SESSION['condition'])) $_SESSION['condition'] = '';
+    // 文字列をセッションhistoryへ格納
+    $_SESSION['condition'] .= $str.'<br>';
+}
+    public static function clear(){
+        unset($_SESSION['condition']);
+    }
+}
 
 // インスタンス生成
 $human = new Human('勇者見習い', Sex::OKAMA, 500, 40, 120);
@@ -156,6 +178,7 @@ function createMonster(){
     global $monsters;
     $monster =  $monsters[mt_rand(0, 7)];
     History::set($monster->getName().'が現れた！');
+    condition::set($monster->getName().'が現れた！');
     $_SESSION['monster'] =  $monster;
 }
 function createHuman(){
@@ -164,6 +187,7 @@ function createHuman(){
 }
 function init(){
     History::clear();
+    condition::clear();
     History::set('初期化します！');
     $_SESSION['knockDownCount'] = 0;
     createHuman();
@@ -191,9 +215,11 @@ if(!empty($_POST)){
 
             // モンスターに攻撃を与える
             History::set($_SESSION['human']->getName().'の攻撃！');
+            condition::set($_SESSION['human']->getName().'の攻撃！');
             $_SESSION['human']->attack($_SESSION['monster']);
             $_SESSION['monster']->sayCry();
             $next='on' ;
+
 
             // 自分のhpが0以下になったらゲームオーバー
             if($_SESSION['human']->getHp() <= 0){
@@ -202,21 +228,31 @@ if(!empty($_POST)){
                 // hpが0以下になったら、別のモンスターを出現させる
                 if($_SESSION['monster']->getHp() <= 0){
                     History::set($_SESSION['monster']->getName().'を倒した！');
+                    condition::set($_SESSION['monster']->getName().'を倒した！');
                     createMonster();
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
+       
                 }
             }
         }
         elseif($nextFlg){
             History::set($_SESSION['monster']->getName().'の攻撃！');
+            condition::clear();
+            condition::set($_SESSION['monster']->getName().'の攻撃！');
             $_SESSION['monster']->attack($_SESSION['human']);
+            $next='ons';
             $_SESSION['human']->sayCry();
+            debug('$condition：'.print_r($_SESSION['condition'],true));
+            
         
         }else{ //逃げるを押した場合
             History::set('逃げた！');
+            condition::set('逃げた！');
             createMonster();
+            
         }
     }
+    debug('$next：'.print_r($next,true));
     $_POST = array();
 }
 
@@ -240,7 +276,7 @@ if(!empty($_POST)){
             body{
                 margin: 0 auto;
                 padding: 150px;
-                width: 25%;
+                width: 56%;
                 background: #fbfbfa;
                 color: white;
             }
@@ -248,6 +284,8 @@ if(!empty($_POST)){
             h2{ color: white; font-size: 16px; text-align: center;}
             form{
                 overflow: hidden;
+                border: 2px solid #fff;
+                padding:10px;
             }
             input[type="text"]{
                 color: #545454;
@@ -313,11 +351,16 @@ if(!empty($_POST)){
                 <input type="submit" name="attack" value="▶攻撃する">
                 <input type="submit" name="escape" value="▶逃げる">
                 <?php } ?>
-                <?php if($next=='on'or'on2' ){ ?>
+                <?php if($next=='on'){ ?>
+                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
                 
                 <?php } ?>
-                
+                <?php if($next=='ons'){ ?>
+                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <input type="submit" name="next" value="▶次へ">
+
+                <?php } $next='off'?>
                 <input type="submit" name="start" value="▶ゲームリスタート">
                 
             </form>
