@@ -177,7 +177,9 @@ function gameOver(){
 //1.post送信されていた場合
 if(!empty($_POST)){
     $attackFlg = (!empty($_POST['attack'])) ? true : false;
+    $nextFlg = (!empty($_POST['next'])) ? true : false;
     $startFlg = (!empty($_POST['start'])) ? true : false;
+    $next='off' ;
     error_log('POSTされた！');
 
     if($startFlg){
@@ -191,11 +193,7 @@ if(!empty($_POST)){
             History::set($_SESSION['human']->getName().'の攻撃！');
             $_SESSION['human']->attack($_SESSION['monster']);
             $_SESSION['monster']->sayCry();
-
-            // モンスターが攻撃をする
-            History::set($_SESSION['monster']->getName().'の攻撃！');
-            $_SESSION['monster']->attack($_SESSION['human']);
-            $_SESSION['human']->sayCry();
+            $next='on' ;
 
             // 自分のhpが0以下になったらゲームオーバー
             if($_SESSION['human']->getHp() <= 0){
@@ -208,6 +206,12 @@ if(!empty($_POST)){
                     $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 }
             }
+        }
+        elseif($nextFlg){
+            History::set($_SESSION['monster']->getName().'の攻撃！');
+            $_SESSION['monster']->attack($_SESSION['human']);
+            $_SESSION['human']->sayCry();
+        
         }else{ //逃げるを押した場合
             History::set('逃げた！');
             createMonster();
@@ -215,6 +219,15 @@ if(!empty($_POST)){
     }
     $_POST = array();
 }
+
+
+
+       
+
+?>
+<?php
+
+
 
 ?>
 
@@ -289,16 +302,26 @@ if(!empty($_POST)){
             <h2><?php echo $_SESSION['monster']->getName().'が現れた!!'; ?></h2>
             <div style="height: 150px;">
                 <img src="<?php echo $_SESSION['monster']->getImg(); ?>" style="width:120px; height:auto; margin:40px auto 0 auto; display:block;">
-          
             </div>
             <p style="font-size:14px; text-align:center;">モンスターのHP：<?php echo $_SESSION['monster']->getHp(); ?></p>
             <p>倒したモンスター数：<?php echo $_SESSION['knockDownCount']; ?></p>
             <p>勇者の残りHP：<?php echo $_SESSION['human']->getHp(); ?></p>
+            
             <form method="post">
+                <?php if($next=='off' ){   ?>
+
                 <input type="submit" name="attack" value="▶攻撃する">
                 <input type="submit" name="escape" value="▶逃げる">
+                <?php } ?>
+                <?php if($next=='on'or'on2' ){ ?>
+                <input type="submit" name="next" value="▶次へ">
+                
+                <?php } ?>
+                
                 <input type="submit" name="start" value="▶ゲームリスタート">
+                
             </form>
+       
             <?php } ?>
             <div style="position:absolute; right:-350px; top:0; color:black; width: 300px;">
                 <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
