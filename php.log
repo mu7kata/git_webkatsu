@@ -981,3 +981,962 @@ Stack trace:
 [19-Aug-2020 00:07:59 Asia/Tokyo] POSTされた！
 [19-Aug-2020 00:07:59 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>49ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
 [19-Aug-2020 00:07:59 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:09:21 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:09:21 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>44ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:09:21 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:17:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:17:10 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:17:10 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:17:11 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:17:11 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:17:11 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:17:13 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:17:13 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>48ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:17:13 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:17:13 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:17:14 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:17:14 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>35ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:17:14 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:17:14 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:18:50 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:50 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:18:50 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:50 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:50 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:18:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:52 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>45ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:18:52 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:52 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:52 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:18:53 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:53 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:53 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:53 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:18:54 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:54 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:54 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:54 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:18:56 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:56 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>30ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:18:56 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:56 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:56 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:18:57 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:18:57 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>ドラキュリーのクリティカルヒット!!<br>46ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:18:57 Asia/Tokyo] PHP Warning:  Use of undefined constant on - assumed 'on' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 203
+[19-Aug-2020 00:18:57 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:18:57 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:20:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:20:06 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>46ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:20:06 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:20:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:20:09 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:20:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:20:10 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:20:12 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:20:12 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>40ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:20:12 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:21:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:08 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>44ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:21:08 Asia/Tokyo] デバッグ：$next：0
+[19-Aug-2020 00:21:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:10 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>46ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:21:10 Asia/Tokyo] デバッグ：$next：0
+[19-Aug-2020 00:21:11 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:11 Asia/Tokyo] デバッグ：$next：0
+[19-Aug-2020 00:21:12 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:12 Asia/Tokyo] デバッグ：$next：0
+[19-Aug-2020 00:21:13 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:13 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>毒ハンドのクリティカルヒット!!<br>40ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:21:13 Asia/Tokyo] デバッグ：$next：0
+[19-Aug-2020 00:21:49 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:21:49 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>16ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:21:49 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function nex(), 0 passed in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261 and exactly 1 expected in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php:200
+Stack trace:
+#0 /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php(261): nex()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 200
+[19-Aug-2020 00:22:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:05 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>29ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:22:05 Asia/Tokyo] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function nex(), 0 passed in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261 and exactly 1 expected in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php:200
+Stack trace:
+#0 /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php(261): nex()
+#1 {main}
+  thrown in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 200
+[19-Aug-2020 00:22:12 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:12 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>20ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:22:12 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:22:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:40 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>11ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:22:40 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:22:40 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:22:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:41 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:22:41 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:22:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:42 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:22:42 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:22:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:22:43 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:22:43 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:22:43 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:26:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:26:42 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>34ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:26:42 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 267
+[19-Aug-2020 00:26:42 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:26:46 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:26:46 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 267
+[19-Aug-2020 00:26:46 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:26:48 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:26:48 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 267
+[19-Aug-2020 00:26:48 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:26:50 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:26:50 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:26:50 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 267
+[19-Aug-2020 00:26:50 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:26:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:26:52 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:26:52 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 267
+[19-Aug-2020 00:26:52 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:28:39 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:28:39 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:28:39 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function nex() in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php:258
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 258
+[19-Aug-2020 00:28:56 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:28:56 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:28:56 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:28:56 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:28:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:28:58 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:28:58 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:28:59 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:28:59 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:28:59 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:00 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:00 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>86ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:00 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:00 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:01 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:01 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:01 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:01 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:04 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:04 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>48ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:04 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:04 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:04 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:04 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>53ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:04 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:04 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:05 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>55ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:05 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:05 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:05 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOのクリティカルヒット!!<br>49ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:05 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:05 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:06 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>49ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:06 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:06 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:06 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>51ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:06 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:06 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:07 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOのクリティカルヒット!!<br>70ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:07 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:07 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>44ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:07 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:07 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>86ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:07 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:07 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:08 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>47ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:08 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:08 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:08 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:08 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:08 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>47ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:09 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>55ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:09 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>86ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:09 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>46ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:09 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:09 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>36ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:10 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>37ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:10 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>26ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:10 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOのクリティカルヒット!!<br>67ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:10 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:10 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:11 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:11 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>86ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:11 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:11 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:29:11 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:29:11 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>22ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:29:11 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 259
+[19-Aug-2020 00:29:11 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:33 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:33 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:30:33 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:30:33 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:33 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:35 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:35 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:37 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:37 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:37 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:38 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:38 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:30:38 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:30:38 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:38 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>50ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:30:40 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:30:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>59ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:30:40 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 261
+[19-Aug-2020 00:30:40 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:31:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:41 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>57ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:31:41 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:31:41 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:31:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:42 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:31:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:43 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:31:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:44 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:31:44 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:31:44 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:31:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:45 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:31:45 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:31:45 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:31:46 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:31:46 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>21ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:31:46 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:31:46 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:32:39 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:39 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:32:39 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：off
+[19-Aug-2020 00:32:39 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:32:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:40 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:32:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:42 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:32:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:43 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:32:43 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：off
+[19-Aug-2020 00:32:43 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:32:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:44 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:32:46 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:32:46 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>36ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:32:46 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：off
+[19-Aug-2020 00:32:46 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:33:14 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:14 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>80ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:33:14 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:33:14 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:33:16 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:16 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:33:17 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:17 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:33:18 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:18 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>37ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:33:18 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:33:18 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:33:19 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>35ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:33:19 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>41ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:33:19 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:34:11 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:34:11 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>35ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:34:11 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:34:11 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:34:11 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:34:12 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:34:12 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:34:13 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:34:13 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:34:14 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:34:14 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>73ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:34:14 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:34:14 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:34:14 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:34:15 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:34:15 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>ドラキュラ男爵の魔法攻撃!!<br>120ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:34:15 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:34:15 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:34:15 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:35:39 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:39 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>72ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:35:39 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:35:39 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:35:39 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:35:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:40 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:35:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:41 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:35:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:45 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:35:45 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:35:45 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:35:45 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:35:46 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:46 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>泥ハンドのクリティカルヒット!!<br>40ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:35:46 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:35:46 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:35:46 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:35:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:35:52 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:35:52 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:35:52 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:35:52 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:37:33 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:37:33 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>21ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:37:33 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:37:33 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:37:33 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:37:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:37:35 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:37:37 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:37:37 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:37:38 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:37:38 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>31ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:37:38 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:37:38 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:37:38 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:37:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:37:42 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>36ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:37:42 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:37:42 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:37:42 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:38:27 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:38:27 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>27ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:38:27 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 244
+[19-Aug-2020 00:38:27 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:38:27 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 245
+[19-Aug-2020 00:38:27 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:38:27 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:38:28 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:38:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 262
+[19-Aug-2020 00:38:28 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:38:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 356
+[19-Aug-2020 00:38:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 361
+[19-Aug-2020 00:38:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 366
+[19-Aug-2020 00:41:43 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 205
+[19-Aug-2020 00:41:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:41:43 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:41:43 Asia/Tokyo] デバッグ：$next：
+[19-Aug-2020 00:41:43 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 357
+[19-Aug-2020 00:41:43 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 362
+[19-Aug-2020 00:41:43 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 367
+[19-Aug-2020 00:43:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:43:44 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:44:03 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:44:03 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:44:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:44:05 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>22ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:44:05 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:44:05 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:44:05 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:44:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:44:06 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>57ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:44:06 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:44:06 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:44:06 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:48:31 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:48:31 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>45ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:48:31 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:48:31 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:48:31 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:48:36 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:48:36 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:48:37 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:48:37 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:48:39 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:48:39 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>56ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:48:39 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:48:39 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:48:39 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:48:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:48:42 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>59ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:48:42 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 00:48:42 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:48:42 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:50:53 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:50:53 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>70ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:50:53 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:50:53 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:50:53 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:50:53 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:50:53 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:50:55 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:50:55 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:50:56 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:50:56 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:51:01 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:51:01 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>26ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:51:01 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:51:01 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:51:01 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:51:01 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:51:01 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:51:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:51:05 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:51:05 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:51:05 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:51:05 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:51:05 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:51:05 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:52:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:52:41 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:52:41 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:52:41 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:52:41 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:52:41 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 00:52:41 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:52:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:52:43 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:52:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:52:44 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:52:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:52:45 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>41ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:52:45 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:52:45 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:52:45 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:52:45 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 00:52:45 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:56:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:56:40 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>38ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:56:40 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:56:40 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:56:40 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:56:40 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:56:40 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:56:40 Asia/Tokyo] デバッグ：$nex：
+[19-Aug-2020 00:56:40 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 00:56:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:56:43 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:56:43 Asia/Tokyo] デバッグ：$nex：
+[19-Aug-2020 00:56:43 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 00:56:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:56:44 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:56:44 Asia/Tokyo] デバッグ：$nex：
+[19-Aug-2020 00:56:44 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 00:56:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 00:56:47 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>26ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 00:56:47 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 246
+[19-Aug-2020 00:56:47 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 00:56:47 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 00:56:47 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 00:56:47 Asia/Tokyo] PHP Notice:  Undefined variable: nex in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 263
+[19-Aug-2020 00:56:47 Asia/Tokyo] デバッグ：$nex：
+[19-Aug-2020 00:56:47 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:01:03 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:01:03 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>21ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:01:03 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:01:03 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:01:03 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:01:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:01:05 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:01:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:01:06 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:01:07 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:01:07 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>35ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:01:07 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:01:07 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:01:07 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:01:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:01:08 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>34ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:01:08 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:01:08 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:01:08 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:02:49 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:02:49 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>33ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:02:49 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:02:49 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:02:49 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:02:49 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:02:49 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:02:49 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:02:51 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:02:51 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:02:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:02:52 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:02:54 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:02:54 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>38ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:02:54 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:02:54 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:02:54 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:02:54 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:02:54 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:02:54 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:02:56 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:02:56 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>37ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:02:56 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:02:56 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:02:56 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:02:56 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:02:56 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:02:56 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:03:32 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:03:32 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>50ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:03:32 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:03:32 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 248
+[19-Aug-2020 01:03:32 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:03:32 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:03:32 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:03:32 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:03:32 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:03:34 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:03:34 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:03:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:03:35 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:03:36 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:03:36 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>29ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 248
+[19-Aug-2020 01:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:03:36 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:03:36 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:03:36 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:03:36 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:03:38 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:03:38 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>27ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:03:38 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 247
+[19-Aug-2020 01:03:38 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 248
+[19-Aug-2020 01:03:38 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 249
+[19-Aug-2020 01:03:38 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:03:38 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 250
+[19-Aug-2020 01:03:38 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:03:38 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:04:29 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:29 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:04:29 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:04:29 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:04:29 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:04:30 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:30 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:04:31 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:31 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:04:33 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:33 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>33ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:04:33 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:04:33 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:04:33 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:04:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:35 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:04:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:35 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:04:37 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:04:37 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:04:37 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:04:37 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:04:37 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:07:25 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:07:25 Asia/Tokyo] デバッグ：$condition：フランケンの攻撃！<br>39ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:07:25 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:07:25 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:07:25 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:07:26 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:07:26 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:07:28 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:07:28 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:07:30 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:07:30 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>43ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:07:30 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:07:30 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:07:30 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:08:30 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:08:30 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:10:23 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:10:23 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>51ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:10:23 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:10:23 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:10:23 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:11:57 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:11:57 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>86ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:11:57 Asia/Tokyo] デバッグ：ifまえ$next：on
+[19-Aug-2020 01:11:57 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:11:57 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:11:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:11:58 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:12:00 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:12:00 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:12:01 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:12:01 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>ドラキュラ男爵の魔法攻撃!!<br>107ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:12:01 Asia/Tokyo] デバッグ：ifまえ$next：on
+[19-Aug-2020 01:12:01 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:12:01 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:12:02 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:12:02 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>ドラキュラ男爵の魔法攻撃!!<br>107ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:12:02 Asia/Tokyo] デバッグ：ifまえ$next：on
+[19-Aug-2020 01:12:02 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:12:02 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:15:30 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 289
+[19-Aug-2020 01:15:30 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 294
+[19-Aug-2020 01:15:30 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 299
+[19-Aug-2020 01:15:30 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:15:30 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>59ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:15:30 Asia/Tokyo] デバッグ：ifまえ$next：on
+[19-Aug-2020 01:15:30 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:15:30 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:15:51 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 289
+[19-Aug-2020 01:15:51 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 294
+[19-Aug-2020 01:15:51 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 299
+[19-Aug-2020 01:15:51 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:15:51 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:17:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:17:45 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:17:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:17:47 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:17:48 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:17:48 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:20:03 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:20:03 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:20:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:20:09 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:20:39 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:20:39 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:20:43 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:20:43 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:20:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:20:47 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:25:51 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:25:51 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:25:55 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:25:55 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:25:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:25:58 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:25:59 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:25:59 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>21ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:25:59 Asia/Tokyo] デバッグ：ifまえ$next：on
+[19-Aug-2020 01:25:59 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:25:59 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:29:24 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:29:24 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:29:25 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:29:25 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:29:28 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:29:28 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>43ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:29:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:29:28 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:29:28 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:29:28 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:29:28 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:29:30 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:29:30 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>47ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:29:30 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:29:30 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:29:30 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:29:30 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:29:30 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:30:14 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:30:14 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>46ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:30:14 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:30:14 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:30:14 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:30:14 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:30:14 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:31:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:05 Asia/Tokyo] デバッグ：$condition：血のハンドの攻撃！<br>48ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:31:05 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:31:05 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:31:05 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:31:05 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:31:05 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:31:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:08 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:31:09 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:09 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:31:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:10 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>43ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:31:10 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:31:10 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:31:10 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:31:10 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:31:10 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:31:25 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:25 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>32ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:31:25 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:31:25 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:31:25 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:31:25 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:31:25 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:31:28 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:28 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:31:29 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:29 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:31:29 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:31:29 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>53ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:31:29 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:31:29 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:31:29 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 340
+[19-Aug-2020 01:31:29 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:31:29 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:40 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:40 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>56ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:40 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:40 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:40 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:44 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>57ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:44 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:44 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:44 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:45 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>ドラキュラ男爵の魔法攻撃!!<br>62ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:45 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:45 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:45 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:47 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>57ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:47 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:47 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:47 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:49 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:49 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:32:51 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:51 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:32:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:52 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>26ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:52 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:52 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:52 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:32:53 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:32:53 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>フランケンNEOの魔法攻撃!!<br>67ポイントのダメージを受けた！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:32:53 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:32:53 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:32:53 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:34:50 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:34:50 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>32ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:34:50 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:34:50 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:34:50 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:34:52 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:34:52 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:34:55 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:34:55 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:34:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:34:58 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:34:58 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:34:58 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:34:58 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:35:00 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:35:00 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:35:00 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:35:00 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:35:00 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:35:01 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:35:01 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>13ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:35:01 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:35:01 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:35:01 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:35:03 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:35:03 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>15ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:35:03 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:35:03 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:35:03 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:36:15 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:36:15 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>15ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:36:15 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:36:15 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:36:15 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:36:16 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:36:16 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:36:18 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:36:18 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:36:20 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:36:20 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>40ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:36:20 Asia/Tokyo] デバッグ：ifまえ$next：ons
+[19-Aug-2020 01:36:20 Asia/Tokyo] デバッグ：$nextがonsだったよ：off
+[19-Aug-2020 01:36:20 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:37:35 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:35 Asia/Tokyo] デバッグ：$condition：スカルフェイスの攻撃！<br>60ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:37:35 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:37:35 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:37:35 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:37:36 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:36 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:37:38 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:38 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:37:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:41 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>12ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:37:41 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:37:41 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:37:41 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:37:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:44 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>20ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:37:44 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:37:44 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:37:44 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:37:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:37:45 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>28ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:37:45 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:37:45 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:37:45 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:39:44 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:39:44 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>毒ハンドのクリティカルヒット!!<br>18ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:39:44 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:39:44 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 341
+[19-Aug-2020 01:39:44 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:39:44 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 342
+[19-Aug-2020 01:39:44 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:39:44 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:39:46 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:39:46 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:39:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:39:47 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:39:48 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:39:48 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>35ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:39:48 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 339
+[19-Aug-2020 01:39:48 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 341
+[19-Aug-2020 01:39:48 Asia/Tokyo] デバッグ：ifまえ$next：
+[19-Aug-2020 01:39:48 Asia/Tokyo] PHP Notice:  Undefined variable: next in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 342
+[19-Aug-2020 01:39:48 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:39:48 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:29 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:29 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>38ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:40:29 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:40:29 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:40:29 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:31 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:31 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:40:32 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:32 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:40:34 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:34 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>20ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:40:34 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:40:34 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:40:34 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:36 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:36 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:40:36 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:40:36 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:40:36 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:41 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:41 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:40:42 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:42 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:40:45 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:45 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>24ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:40:45 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:40:45 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:40:45 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:47 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:47 Asia/Tokyo] デバッグ：$condition：泥ハンドの攻撃！<br>22ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:40:47 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:40:47 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:40:47 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:40:57 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:57 Asia/Tokyo] デバッグ：$next：off
+[19-Aug-2020 01:40:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:40:58 Asia/Tokyo] デバッグ：$next：on
+[19-Aug-2020 01:41:01 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:41:01 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>ドラキュラ男爵のクリティカルヒット!!<br>96ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:41:01 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:41:01 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:41:01 Asia/Tokyo] デバッグ：$next：ons
+[19-Aug-2020 01:43:58 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:43:58 Asia/Tokyo] デバッグ：$condition：ドラキュラ男爵の攻撃！<br>66ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:43:58 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:43:58 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:43:58 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:43:59 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:43:59 Asia/Tokyo] デバッグ：$nextlast：off
+[19-Aug-2020 01:44:00 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:44:00 Asia/Tokyo] デバッグ：$nextlast：on
+[19-Aug-2020 01:44:03 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:44:03 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>45ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:44:03 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:44:03 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:44:03 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:44:05 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:44:05 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>47ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:44:05 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:44:05 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:44:05 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:49:02 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:49:02 Asia/Tokyo] デバッグ：$condition：フランケンNEOの攻撃！<br>38ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:49:02 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:49:02 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:49:02 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:49:06 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:49:07 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:49:07 Asia/Tokyo] デバッグ：$nextlast：on
+[19-Aug-2020 01:49:08 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:49:08 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>25ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:49:08 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:49:08 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:49:08 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:49:10 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:49:10 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>17ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:49:10 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:49:10 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:49:10 Asia/Tokyo] デバッグ：$nextlast：ons
+[19-Aug-2020 01:53:02 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:02 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>毒ハンドのクリティカルヒット!!<br>42ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:53:02 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:53:02 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:53:02 Asia/Tokyo] PHP Warning:  Use of undefined constant off - assumed 'off' (this will throw an Error in a future version of PHP) in /Applications/MAMP/htdocs/objective_OP/webkatsu/fix.php on line 360
+[19-Aug-2020 01:53:02 Asia/Tokyo] デバッグ：$nextlast：off
+[19-Aug-2020 01:53:20 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:20 Asia/Tokyo] デバッグ：$condition：毒ハンドの攻撃！<br>30ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:53:20 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:53:20 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:53:20 Asia/Tokyo] デバッグ：$nextlast：off
+[19-Aug-2020 01:53:22 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:23 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:23 Asia/Tokyo] デバッグ：$nextlast：on
+[19-Aug-2020 01:53:25 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:25 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>44ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:53:25 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:53:25 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:53:25 Asia/Tokyo] デバッグ：$nextlast：off
+[19-Aug-2020 01:53:27 Asia/Tokyo] POSTされた！
+[19-Aug-2020 01:53:27 Asia/Tokyo] デバッグ：$condition：ドラキュリーの攻撃！<br>45ポイントのダメージ！<br>勇者見習いが叫ぶ！<br>
+[19-Aug-2020 01:53:27 Asia/Tokyo] デバッグ：ifまえ$next：off
+[19-Aug-2020 01:53:27 Asia/Tokyo] デバッグ：$nextがonsじゃなかったよ：ons
+[19-Aug-2020 01:53:27 Asia/Tokyo] デバッグ：$nextlast：off
