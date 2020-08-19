@@ -199,9 +199,66 @@ function gameOver(){
 
 //1.post送信されていた場合
 
+if(!empty($_POST)){
+    $attackFlg = (!empty($_POST['attack'])) ? true : false;
+    $nextFlg = (!empty($_POST['next'])) ? true : false;
+    $startFlg = (!empty($_POST['start'])) ? true : false;
+    debug('$nextFlg：'.print_r($nextFlg,true));
+    error_log('POSTされた！');
+    
+    if($startFlg){
+        History::set('ゲームスタート！');
+        init();
+        $_SESSION['test'] =0;
+}else{
+    // 攻撃するを押した場合
+    if($attackFlg){
+        // モンスターに攻撃を与える
+        History::set($_SESSION['human']->getName().'の攻撃！');
+        condition::set($_SESSION['human']->getName().'の攻撃！');
+        $_SESSION['human']->attack($_SESSION['monster']);
+        $_SESSION['monster']->sayCry();
+        $_SESSION['test'] = $_SESSION['test']+1;
+    
+        // 自分のhpが0以下になったらゲームオーバー
+        if($_SESSION['human']->getHp() <= 0){
+            gameOver();   }else{
+            // hpが0以下になったら、別のモンスターを出現させる
+            if($_SESSION['monster']->getHp() <= 0){
+                History::set($_SESSION['monster']->getName().'を倒した！');
+                condition::set($_SESSION['monster']->getName().'を倒した！');
+                createMonster();
+                $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
+            }
+        }
+     }
+        elseif($nextFlg){
+            debug('$nextFlgある？：'.print_r($nextFlg,true));
+    History::set($_SESSION['monster']->getName().'の攻撃！');
+    condition::clear();
+    condition::set($_SESSION['monster']->getName().'の攻撃！');
+    $_SESSION['monster']->attack($_SESSION['human']);
+    $_SESSION['human']->sayCry();
+    debug('$condition：'.print_r($_SESSION['condition'],true));
+    $_SESSION['test'] = $_SESSION['test']+1;
+    
+}else{ //逃げるを押した場合
+    History::set('逃げた！');
+    condition::set('逃げた！');
+    createMonster();
+}}
+    if($_SESSION['test'] ==3){
+        unset($_SESSION['test']);
+        $_SESSION['test'] =0;
+        unset($nextFlg) ;
+        condition::clear();
+    }
+    debug('$testlast：'.print_r($_SESSION['test'],true));
+  
+   
+$_POST = array();
+}
 
-?>
-<?php
 
 
 
@@ -286,88 +343,34 @@ function gameOver(){
             <p>勇者の残りHP：<?php echo $_SESSION['human']->getHp(); ?></p>
             
             <form method="post">
-               
-                        <?php
-                            if(!empty($_POST)){
-                                $attackFlg = (!empty($_POST['attack'])) ? true : false;
-                                $nextFlg = (!empty($_POST['next'])) ? true : false;
-                                $startFlg = (!empty($_POST['start'])) ? true : false;
-                                error_log('POSTされた！');
-                                if($startFlg){
-                                    History::set('ゲームスタート！');
-                                    init();
-                 if(empty($next)){
-                $next='off';}?>
+              
                 
-                <?php  if($next=='off' ){   ?>
+                
+                <?php  if($_SESSION['test']==0 ){   ?>
                 <input type="submit" name="attack" value="▶攻撃する">
                 <input type="submit" name="escape" value="▶逃げる">
                 <?php } ?>
-                <?php 
-                                }else{
-                                    // 攻撃するを押した場合
-                                    if($attackFlg){
-                                        // モンスターに攻撃を与える
-                                        History::set($_SESSION['human']->getName().'の攻撃！');
-                                        condition::set($_SESSION['human']->getName().'の攻撃！');
-                                        $_SESSION['human']->attack($_SESSION['monster']);
-                                        $_SESSION['monster']->sayCry();
-                                        $next='on' ;
-                                        // 自分のhpが0以下になったらゲームオーバー
-                                        if($_SESSION['human']->getHp() <= 0){
-                                            gameOver();   }else{
-                                            // hpが0以下になったら、別のモンスターを出現させる
-                                            if($_SESSION['monster']->getHp() <= 0){
-                                                History::set($_SESSION['monster']->getName().'を倒した！');
-                                                condition::set($_SESSION['monster']->getName().'を倒した！');
-                                                createMonster();
-                                                $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;}} ?>
-                <?php if($next=='on'){ ?>
+                <?php  ?>
+                <?php if( $_SESSION['test']==1 ){ ?>
                 <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
                 
-                <?php } ?>
-                <?php 
-                                    }elseif($nextFlg){
-                                        History::set($_SESSION['monster']->getName().'の攻撃！');
-                                        condition::clear();
-                                        condition::set($_SESSION['monster']->getName().'の攻撃！');
-                                        $_SESSION['monster']->attack($_SESSION['human']);
-                                        $_SESSION['human']->sayCry();
-                                        debug('$condition：'.print_r($_SESSION['condition'],true));
-                                        $next='ons';
-                                        if($next=='ons'){
-                                            $next='off';}
-                                        debug('ifまえ$next：'.print_r($next,true));
-                                        if($next=='ons' ){
-                                            $next='off';
-                                            debug('$nextがonsだったよ：'.print_r($next,true));
-                                        }else{
-                                            $next='ons';
-                                            debug('$nextがonsじゃなかったよ：'.print_r($next,true));
-                                        }
-                                    }else{ //逃げるを押した場合
-                                        History::set('逃げた！');
-                                        condition::set('逃げた！');
-                                        createMonster();
-                                    }
+                <?php }  ?>
+                
+                                 
                                 
-                ?>
-                <?php if($next=='ons'){ ?>
+            
+                <?php if( $_SESSION['test']==2){ ?>
                 <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
-                <?php }if($next=='ons'){
-                  $next='off';
-                }
-                debug('$nextlast：'.print_r($next,true));
-                $_POST = array();
-                } ?>
-                <?php } ?>
+              
+                <?php }  ?>
                 <input type="submit" name="start" value="▶ゲームリスタート">
                      
             </form>
-       
-            <?php } ?>
+           <?php }
+            ?>
+            
             <div style="position:absolute; right:-350px; top:0; color:black; width: 300px;">
                 <p><?php echo (!empty($_SESSION['history'])) ? $_SESSION['history'] : ''; ?></p>
             </div>
