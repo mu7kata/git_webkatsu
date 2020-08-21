@@ -71,17 +71,21 @@ class Human extends Creature{
         return $this->sex;
     }
     public function sayCry(){
+        conditions::clear();
         History::set($this->name.'が叫ぶ！');
-        condition::set($this->name.'が叫ぶ！');
+  
         switch($this->sex){
             case Sex::MAN :
                 History::set('ぐはぁっ！');
+                conditions::set('ぐは！♡');
                 break;
             case Sex::WOMAN :
                 History::set('きゃっ！');
+                conditions::set('ぐは！♡');
                 break;
             case Sex::OKAMA :
                 History::set('もっと！♡');
+                conditions::set(' \\\ もっと！♡ // ');
                 break;
         }
     }
@@ -105,8 +109,8 @@ class Monster extends Creature{
     public function sayCry(){
         History::set($this->name.'が叫ぶ！');
         History::set('はうっ！');
-        condition::set($this->name.'が叫ぶ！');
-        condition::set('はうっ！');
+        conditions::clear();
+        conditions::set('// はうっ！ \\\\');
     }
 }
 // 魔法を使えるモンスタークラス
@@ -160,6 +164,21 @@ public static function set($str){
 }
     public static function clear(){
         unset($_SESSION['condition']);
+    }
+}
+interface conditionsInterface{
+    public static function set($str);
+    public static function clear();
+}
+
+class conditions implements conditionInterface {
+    public static function set($str){
+        if(empty($_SESSION['conditions'])) $_SESSION['conditions'] = '';
+        // 文字列をセッションhistoryへ格納
+        $_SESSION['conditions'] .= $str.'<br>';
+    }
+    public static function clear(){
+        unset($_SESSION['conditions']);
     }
 }
 
@@ -218,38 +237,50 @@ if(!empty($_POST)){
     // 攻撃するを押した場合
     if($attackFlg){
         // モンスターに攻撃を与える
-       
+        debug('$attackFlgある？：'.print_r($attackFlg,true));
         History::set($_SESSION['human']->getName().'の攻撃！');
         condition::set($_SESSION['human']->getName().'の攻撃！');
         $_SESSION['human']->attack($_SESSION['monster']);
         $_SESSION['monster']->sayCry();
         $_SESSION['test'] = $_SESSION['test']+1;
-    
+        debug('$condition：'.print_r($_SESSION['condition'],true));
         // 自分のhpが0以下になったらゲームオーバー
         if($_SESSION['human']->getHp() <= 0){
-            gameOver();   }else{
+            gameOver();   }
+        
+        
+        else{
             // hpが0以下になったら、別のモンスターを出現させる
             if($_SESSION['monster']->getHp() <= 0){
     
                     condition::clear();
                 $_SESSION['test'] = 3;
-                History::set($_SESSION['monster']->getName().'を倒した！');
-                condition::set($_SESSION['monster']->getName().'を倒した！');
+                History::set($_SESSION['human']->getName().'の攻撃！');
+                condition::set($_SESSION['human']->getName().'の攻撃！');
+                $_SESSION['human']->attack($_SESSION['monster']);
+                $_SESSION['monster']->sayCry();
                 $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
                 debug('$condition：'.print_r($_SESSION['condition'],true));
             }
-           
+            
         }
      }
         elseif($nextFlg){
             debug('$nextFlgある？：'.print_r($nextFlg,true));
 //モンスターのHPが０だった場合
-             if( $_SESSION['test']==3){
+            if( $_SESSION['test']==3){
+                History::set($_SESSION['monster']->getName().'を倒した！');
+                condition::set($_SESSION['monster']->getName().'を倒した！');
+                $_SESSION['knockDownCount'] = $_SESSION['knockDownCount']+1;
+                debug('$condition：'.print_r($_SESSION['condition'],true));
+                $_SESSION['test'] = 6;
+            }else 
+             if( $_SESSION['test']==6){
                 createMonster();
                  debug('$condition2：'.print_r($_SESSION['condition'],true));
                 $_SESSION['test']=1;
     
-    }else{//モンスターのHPがだった場合
+    }else{//モンスターのHPがあった場合
     History::set($_SESSION['monster']->getName().'の攻撃！');
     condition::clear();
     condition::set($_SESSION['monster']->getName().'の攻撃！');
@@ -301,6 +332,7 @@ $_POST = array();
                 overflow: hidden;
                 border: 2px solid #fff;
                 padding:10px;
+             
             }
             input[type="text"]{
                 color: #545454;
@@ -341,6 +373,26 @@ $_POST = array();
             a:hover{
                 text-decoration: none;
             }
+            .p{
+              height: 10px;
+                position: relative;
+                top: -3px;
+                left: 317px;
+                font-size: 24px;
+                color: crimson;
+            }
+            .r{
+                height: 10px;
+                position: relative;
+                top: 209px;
+                left: 308px;
+                font-size: 24px;
+                color: crimson;
+            }
+            .message_p{
+
+            height: 40px;
+            }
         </style>
     </head>
     <body>
@@ -353,8 +405,14 @@ $_POST = array();
             </form>
             <?php }else{ ?>
             <h2><?php echo $_SESSION['monster']->getName().'が現れた!!'; ?></h2>
-            <div style="height: 150px;">
+            <div style="height: 150px; position:relative;"  >
                 <img src="<?php echo $_SESSION['monster']->getImg(); ?>" style="width:120px; height:auto; margin:40px auto 0 auto; display:block;">
+                <?php if($attackFlg) { ?>
+                <p class="p"><?php echo (!empty($_SESSION['conditions'])) ? $_SESSION['conditions'] : ''; ?></p>
+                <?php } ; ?>
+                <?php if( $_SESSION['test']==5) { ?>
+                <p class="r"><?php echo (!empty($_SESSION['conditions'])) ? $_SESSION['conditions'] : ''; ?></p>
+                <?php } ; ?>
             </div>
             <p style="font-size:14px; text-align:center;">モンスターのHP：<?php echo $_SESSION['monster']->getHp(); ?></p>
             <p>倒したモンスター数：<?php echo $_SESSION['knockDownCount']; ?></p>
@@ -363,32 +421,38 @@ $_POST = array();
             <form method="post">
 
                 <?php if($_SESSION['monsterflg']==1){ ?>
-                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
 
                 <?php }   condition::clear();  ?>
                 
                 <?php  if($_SESSION['test']==1 ){   ?>
+                <p class="message_p"></p>
                 <input type="submit" name="attack" value="▶攻撃する">
                 <input type="submit" name="escape" value="▶逃げる">
                 <?php } ?>
                 
                 <?php if( $_SESSION['test']==2 ){ ?>
-                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
                 <?php }  ?>
                 
                 <?php if( $_SESSION['test']==3 ){ ?>
-                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <input type="submit" name="next" value="▶次へ">
+                <?php }  ?>
+
+                <?php if( $_SESSION['test']==6 ){ ?>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
                 <?php }  ?>
 
                 <?php if( $_SESSION['test']==8){ ?>
-                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
               
                 <?php }  ?>
                 <?php if( $_SESSION['test']==5){ ?>
-                <p><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
+                <p class="message_p"><?php echo (!empty($_SESSION['condition'])) ? $_SESSION['condition'] : ''; ?></p>
                 <input type="submit" name="next" value="▶次へ">
 
                 <?php }  ?>
